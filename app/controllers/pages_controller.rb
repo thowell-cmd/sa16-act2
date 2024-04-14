@@ -8,4 +8,14 @@ class PagesController < ApplicationController
 
         render :about
     end
+
+    def work
+
+        render :work
+    end
+
+    def contact
+
+        render :contact
+    end
 end
